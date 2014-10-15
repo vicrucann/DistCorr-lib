@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.6)
+project(Distortion_Correction)
+add_subdirectory(distortion)
+add_subdirectory(libDistortion)
+add_subdirectory(libImage)
+add_subdirectory(libLineDetection)
+add_subdirectory(libNumerics)
