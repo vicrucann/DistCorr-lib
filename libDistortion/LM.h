@@ -29,6 +29,12 @@ namespace libNumerics
 	static const double DEFAULT_LAMBDA_FACT = 10.0;
 	static const double EPSILON_KERNEL = 1E-9;
 
+    template <typename T>
+    inline T ABS(T x)
+    {
+        return (x >= 0)? x: -x;
+    }
+
 	/// Solve system AX = B.
 	/// Resolution by LU decomposition with pivot.
 	template <typename T> 
@@ -105,11 +111,7 @@ namespace libNumerics
 		return true;
 	}
 
-	template <typename T>
-	inline T ABS(T x)
-	{ 
-		return (x >= 0)? x: -x; 
-	}
+
 
     /// Levenberg-Marquardt minimization.
 	template <typename T>
