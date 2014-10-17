@@ -7,6 +7,10 @@ Optical distortion calculation and correction; open source C/C++ library
 calculate RMSE of correction and correct calibration or any other images 
 taken under the same camera settings. */
 
+Usage:
+polyestim length_threshold sampling_factor <input1.pgm> [input2.pgm...] <polyout_filename.txt>
+distcorrect <poly_fname.txt> <input.pgm> <output.pgm>
+
     Copyright (C) 2014 Victoria Rudakova <vicrucann@gmail.com>
 
     This program is free software: you can redistribute it and/or modify
