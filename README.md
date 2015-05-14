@@ -7,8 +7,7 @@ Optical distortion calculation and correction; open source C/C++ library
 calculate RMSE of correction and correct calibration or any other images 
 taken under the same camera settings. */
 
-
-    Copyright (C) 2014 Victoria Rudakova <vicrucann@gmail.com>
+    (C) 2014 <vicrucann@gmail.com>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
