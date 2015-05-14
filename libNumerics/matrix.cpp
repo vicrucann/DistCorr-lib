@@ -1,6 +1,6 @@
 /* Matrix and vector classes.
     Copyright (C) 2010 Pascal Monasse <monasse@imagine.enpc.fr>
-		  2013 Victoria Rudakova <vicrucann@gmail.com>
+		  2013 edited <vicrucann@gmail.com>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
