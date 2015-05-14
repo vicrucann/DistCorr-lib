@@ -1,6 +1,6 @@
 /* Bicubic distortion model: obtain using Levenberg-Marquardt 
 minimization.
-    Copyright (C) 2014 Victoria Rudakova <vicrucann@gmail.com>
+    Copyright (C) 2014 <vicrucann@gmail.com>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
