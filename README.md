@@ -15,7 +15,7 @@ Given set of calibration images (example is provided in `data` folder), obtain c
 
 ## The algorithm  
 
-The library is based on research done by CMLA ENS-Cachan and IMAGINE LIGM ENPC, and the reference paper titled [LENS DISTORTION CORRECTION WITH A CALIBRATION HARP](http://www.researchgate.net/publication/221121089_Lens_distortion_correction_with_a_calibration_harp).
+The library is based on research done by CMLA ENS-Cachan and IMAGINE LIGM ENPC, and the reference paper titled [LENS DISTORTION CORRECTION WITH A CALIBRATION HARP](http://www.researchgate.net/publication/221121089_Lens_distortion_correction_with_a_calibration_harp). The code was adapted from originally written Matlab prototype by Zhongwei Tang.
 
 ## Author information  
 
