@@ -19,4 +19,4 @@ The library is based on research done by CMLA ENS-Cachan and IMAGINE LIGM ENPC, 
 
 ## Author information  
 
-The software uses some `C`-based libraries for image processing etc. For more info refer to each file individually.
+The software uses some `C`-based libraries for image processing etc. For more info refer to each `lib` subdirectory individually. The main [framework](https://github.com/vicrucann/DistCorr-lib/tree/master/distortion) and [polynomial estimator](https://github.com/vicrucann/DistCorr-lib/tree/master/libDistortion) were written by Victoria Rudakova. 
