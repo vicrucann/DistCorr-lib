@@ -1,31 +1,22 @@
-DistCorr
+Optical distortion calculation and correction tool (C/C++ library)
 ========
 
-Usage:
+## Usage:
 
-polyestim length_threshold sampling_factor {input1.pgm} [input2.pgm...] {polyout_filename.txt}
+After running `cmake`, there will be two executables which user can run:  
 
-distcorrect {poly_fname.txt} {input.pgm} {output.pgm}
+`polyestim length_threshold sampling_factor {input1.pgm} [input2.pgm...] {polyout_filename.txt}`  
 
-=========
+`distcorrect {poly_fname.txt} {input.pgm} {output.pgm}`  
 
-Optical distortion calculation and correction; open source C/C++ library
+## Main principle
 
-/* Given set of calibration images (folder data), obtain correction polynomial, 
-calculate RMSE of correction and correct calibration or any other images 
-taken under the same camera settings. */
+Given set of calibration images (example is provided in `data` folder), obtain correction polynomial, calculate RMSE of correction and correct calibration or any other images taken under the same camera settings.
 
-    (C) 2014 <vicrucann@gmail.com>
+## The algorithm  
 
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+The library is based on research done by CMLA ENS-Cachan and IMAGINE LIGM ENPC, and the reference paper titled [LENS DISTORTION CORRECTION WITH A CALIBRATION HARP](http://www.researchgate.net/publication/221121089_Lens_distortion_correction_with_a_calibration_harp).
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+## Author information  
 
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+The software uses some `C`-based libraries for image processing etc. For more info refer to each file individually.
